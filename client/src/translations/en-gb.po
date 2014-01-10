@@ -322,7 +322,7 @@ msgstr "People are talking!"
 
 #: client/assets/src/views/serverselect.js
 msgid "client_views_serverselect_form_title"
-msgstr "Think of a nickname..."
+msgstr "RetailNext Chat"
 
 #:
 msgid "client_views_serverselect_nickname"
