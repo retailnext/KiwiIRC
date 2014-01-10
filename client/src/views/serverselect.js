@@ -154,11 +154,8 @@ _kiwi.view.ServerSelect = function () {
             $('input.server', this.$el).val(server);
             $('input.port', this.$el).val(port);
             $('input.ssl', this.$el).prop('checked', ssl);
-            $('input#server_select_show_pass', this.$el).prop('checked', !(!password));
             $('input.password', this.$el).val(password);
-            if (!(!password)) {
-                $('tr.pass', this.$el).show();
-            }
+            $('tr.pass', this.$el).show();
             $('input.channel', this.$el).val(channel);
             $('input#server_select_show_channel_key', this.$el).prop('checked', !(!channel_key));
             $('input.channel_key', this.$el).val(channel_key);
